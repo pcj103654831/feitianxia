@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+.about { height:auto; overflow:hidden; background:#FFF url(../images/about/left_cur.png) repeat-y; }
+.about .about_menu { width:176px !important; overflow:hidden; padding:5px 15px 20px 20px; min-height:800px; }
+.about .about_menu ul li { width:169px; margin:22px 0; }
+.about .about_menu ul li a { display:block; height:35px; width:169px; line-height:35px; font-size:16px; font-family:"微软雅黑", "宋体"; color:#727272; text-align:center; }
+.about .about_menu ul li a:hover { background:url(../images/about/cur_hover.png) no-repeat; text-decoration:none; }
+.about .about_menu ul li .cur { color:#fff; background:url(../images/about/cur_bg.png) no-repeat; }
+.about .about_menu ul li .cur:hover { background:url(../images/about/cur_bg.png) no-repeat; }
+
+.about .about_contain { width:820px; min-height:800px; overflow:hidden; background:#fff; padding-top:30px; padding-right:40px; }
+.about .about_contain h2 { font-size:18px; color:#333; font-weight:normal; text-align:center; }
+.about .about_contain .about_tit { color:#ff892b; font-size:20px; font-family:"微软雅黑", "宋体"; }
+.about .about_contain .about_content { height:auto; overflow:hidden; margin-top:15px; padding-bottom:20px; line-height:26px; color:#727272; font-size:14px; }
+.about .about_contain .about_content a { color:#0289cd }
+.about .about_contain .about_content p{ line-height:26px; color:#727272; font-size:14px;}
+.about .about_contain .about_content .about_notes li { position: relative; line-height: 30px; border-bottom: #eee dashed 1px; margin-bottom: 5px; height: 30px; }
+.about .about_contain .about_content .about_notes li em { color: #ccc; position: absolute; height: 2px; width: 2px; top: 3px; left: 0px; display: block; }
+.about .about_contain .about_content .about_notes li .title { margin-left: 10px; display: block; float: left; width: 680px; overflow: hidden; }
+.about .about_contain .about_content .about_notes li .title a { font-size: 14px; color: #727272; }
+.about .about_contain .about_content .about_notes li .gary { color: #ccc; display: block; float: right; }
+.about .about_contain .about_content .about_notes li a.type { color: #ff892b; }
+
+
+.w980 .about .about_contain { width:700px; }
+.w980 .about .about_contain .about_notes li .title { width:580px; }

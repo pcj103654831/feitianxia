@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+.jiu_help { height:auto; }
+.jiu_help .help_title { width:230px; height:auto; background:#fff; padding-top:20px; padding-bottom:50px; }
+.jiu_help .left_bg { background:url(../images/global/left_bg.png) no-repeat; display:block; height:159px; width:13px; position:absolute; top:0px; left:-13px; }
+.jiu_help .help_title dl { height:auto; width:230px; overflow:hidden; }
+.jiu_help .help_title dl dt { font-size:18px; color:#333; line-height:30px; padding-left:25px; margin-bottom:10px; }
+.jiu_help .help_title dl dd { line-height:36px; height:36px; padding-left:20px; border-bottom:#fff solid 1px; border-top:#fff solid 1px; }
+.jiu_help .help_title dl dd a { color:#727272; padding:3px 5px; font-size:14px; }
+.jiu_help .help_title dl .cur { height:36px; background:#fafafa; border-top:#f4f4f4 solid 1px; border-bottom:#f4f4f4 solid 1px; }
+.jiu_help .help_title dl .cur a { color:#ee6217; font-weight:bold; font-size:14px; }
+.jiu_help .help_title dl .cur a:hover { text-decoration:none; }
+
+.help_content { height:auto; overflow:hidden; width:855px; background:#fff; }
+.help_content a:hover { text-decoration:none; }
+.help_content .help_list, .help_content .help_new_list { padding:25px; min-height:800px; }
+.help_content h3 { font-size:16px; color:#333; font-weight:normal; }
+.help_content .hot_help { padding:10px; margin-top:20px; list-style:none; background-color:#F7F7F7; }
+.help_content .hot_help li { height:40px; line-height:40px; padding-left:10px; border-bottom:1px #E6E6E6 solid; color:#666666; font-size:14px; }
+.help_content .hot_help li .icon { margin-top:14px; height:13px; width:15px; font-size:0px; margin-right:20px; background-image:url(../images/help/list_bg.jpg); }
+.help_content .help_list li { padding-top:10px; cursor:pointer; }
+.help_content .help_list li .title { height:40px; border: none medium;  }
+.help_content .help_list li .title a:hover { text-decoration:none; }
+.help_content .help_list li .title a:link p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.help_content .help_list li .title a:visited p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.help_content .help_list li .title a:hover p { height:30px; padding-left:20px; padding-top:10px; font-size:14px; cursor:pointer; background:url(../images/help/title_bg.gif) right no-repeat; background-color:#F7F7F7; }
+.help_content .help_list li .content { padding:15px 18px; background-color:#FFFFFF; font-size:14px; line-height:180%; color:#666666; border-left:5px #fff3b4 solid; border-right:5px #fff3b4 solid; border-bottom:5px #fff3b4 solid; display:none; }
+.help_content .help_list li .content .red { color:#ff0000; }
+.help_content .help_list li .content p { padding-bottom:10px; }
+.help_content .help_list li .content a { color:#0289cd }
+.help_content .help_list li .content a:hover { text-decoration: underline }
+.help_content .help_list .on .content { display:block; }
+.help_content .help_list .on .title a:link p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; color:#ff6c01; }
+.help_content .help_list .on .title a:visited p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; color:#ff6c01; }
+.help_content .help_list .on .title a:hover p { background:url(../images/help/title_bg2.gif) right no-repeat; background-color:#fff3b4; }
+
+.w980 .help_content { width:735px; }

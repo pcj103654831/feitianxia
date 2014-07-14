@@ -1,0 +1,80 @@
+@charset "utf-8";
+body { background:url(../images/user/login-bg.jpg) no-repeat top center; min-width:1000px; }
+.top { width:900px; height:75px; clear:both; margin:0px auto; padding-top:30px; }
+.top .logo_show { margin-left:15px; width:980px; }
+.login-main { width:980px; margin:0 auto; }
+.login-content { margin:0 auto; width:900px; }
+.login-content .user-login { position:relative; width:900px; margin:0 auto; overflow:hidden; }
+.login-content .user-login .login-top { height:75px; }
+.user-login .login-top h3 { float:left; margin-top:22px; margin-left:26px; font-size:20px; font-family:"微软雅黑"; font-weight:normal; color:#6db110; }
+.user-login .login-top h3 i { background:#6db110; width:4px; height:19px; display:inline-block; vertical-align:-3px; *vertical-align:2px;
+margin-right:5px; }
+.user-login .login-top span { display:block; position:absolute; top:25px; right:13px; }
+.user-login .login-top .login-r a { color:#666; }
+.user-login .login-top .login-r a:hover { text-decoration:underline; }
+.user-login .login-top .login-r .active { color:#ff6600; }
+.login-content .register { text-align:right; margin-top:10px; padding-bottom:15px; margin-right:40px; font-size: 14px; }
+.login-content .register a { text-decoration:underline; }
+.login-content .register a:hover { color:#0289CD; text-decoration:none; }
+.login-center { overflow:hidden; height: 400px; }
+.content-share { width:232px; padding-left:100px; float:left; background:url(../images/user/line.gif) no-repeat right 66px; }
+.content-share h3 { font-size:16px; font-family:"微软雅黑"; font-weight:normal; }
+.content-share ul { margin-top:18px; }
+.content-share ul li { padding-top:10px; position:relative; }
+.content-share ul li a { color:#666666; width:110px; height:52px; display:block; line-height:52px; font-size:14px; padding-left:60px; }
+.content-share ul li a:hover { text-decoration:none; }
+.content-share ul li .pub { background:url(../images/user/login.gif) no-repeat; }
+.content-share ul li .sina { background-position:0 -99px; }
+.content-share ul li .qq { background-position:0 -44px; }
+.content-share ul li .tb { background-position:0 -154px; }
+.content-share ul li .qqweibo { background-position:0 -209px; }
+.content-share ul li .kaixin { background-position:0 -264px; }
+.content-share ul li .sina:hover { background-position:-173px -99px; }
+.content-share ul li .qq:hover { background-position:-173px -44px; }
+.content-share ul li .tb:hover { background-position:-173px -154px; }
+.content-share ul li .qqweibo:hover { background-position:-173px -209px; }
+.content-share ul li .kaixin:hover { background-position:-173px -264px; }
+.content-share ul li .taobao { background-position:0 -154px; }
+.content-share ul li .taobao:hover { background-position:-173px -154px; }
+
+.content-landing { float:left; padding-left:60px; }
+.content-landing h3 { font-size:22px; font-family:"微软雅黑"; font-weight:normal; color:#666; }
+.content-landing ul { padding-top:24px; }
+.content-landing li { padding-bottom:18px; position:relative; height:30px; }
+.content-landing #login_form li { padding-bottom:18px; position:relative; height:40px; }
+.content-landing li .user { float:left; width:280px; height:38px; position:relative; border:1px solid #c6c6c6; }
+.content-landing li .input-active { border:1px solid #a4cd6b; box-shadow: 0px 0px 2px rgba(164, 205, 147, .8); }
+.content-landing li .user span { width:39px; height:38px; position:absolute; top:0; left:0; }
+.content-landing li .error-box { margin-left:10px; width:185px; margin-top:10px; float:left; color:#666; }
+.content-landing li .error-box01 { padding-left:120px; }
+.content-landing li .checking { background:transparent url(../images/checking.gif) no-repeat; display:none; }
+
+.content-landing li strong { width:16px; height:16px; background:url(../images/user/login.gif) no-repeat; display:inline-block; vertical-align:-3px; margin-right:3px; }
+.content-landing li .error { background-position:0 -19px; }
+.content-landing li .warn{ background-position:-20px -19px;}
+.content-landing li .ok { background-position:-40px -19px; }
+.content-landing li input { border:none; }
+
+.content-landing li .user-input { color:#666; padding: 12px 0 12px 10px; border-left:1px solid #c6c6c6; height: 14px; line-height: 14px; width:230px; position:absolute; top:0; left:39px; }
+.content-landing li i { width:13px; height:12px; margin:14px auto 0; background:url(../images/user/login.gif) no-repeat; display:block; }
+.content-landing li .user-ico { background-position:0 0; }
+.content-landing li .pass-ico { background-position:-19px 0; }
+.content-landing li .spr-ico { background-position:-36px 0; }
+.content-landing li .email-ico { background-position:-53px 0; }
+.content-landing li .spr { width:160px; position:relative; }
+.content-landing li .spr input { width:110px; }
+.content-landing li .spr img { width:65px; height:37px; border:1px solid #f2f2f2; position:absolute; top:0; left:180px; cursor: pointer; }
+.content-landing li .chex { width:280px; position:relative; }
+.content-landing li .chex .ck { vertical-align:-2px; margin-right:10px; }
+.content-landing li .chex .forget { position:absolute; right:0; color:#666; }
+.content-landing li .btn { width:198px; margin-left:40px; position:relative; }
+.content-landing li .btn .sub { width:198px; height:38px; border:1px solid #e25f07; background:#ff6600; cursor:pointer; font-size:16px; color:#fff; border-radius:2px; text-shadow: 1px 1px 0 rgba(0, 0, 0, .2); }
+.content-landing li .btn .sub:hover { background:#ff7e00; }
+.login-content p { text-align:center; margin-top:40px; color:#666; }
+.content-landing LI .user span.emptyhint {color:#999;position:absolute;width: 100px;height: 38px;line-height: 38px;left: 50px;z-index: 2;}
+
+#emailMatch_list .mailListBox{border:1px solid #e0e0e0; background-color:#fff; position:absolute; z-index:9999; display:none;}
+#emailMatch_list .mailListBox ul{padding:0; margin:0;}
+#emailMatch_list .mailListBox li{zoom:1;overflow:hidden;padding:0 5px; margin:0; border-top:1px solid #e0e0e0; list-style:none; font-size:12px; font-family:Arial,Helvetica,sans-serif; line-height:26px; height: 26px;cursor:pointer; color:#999999;}
+#emailMatch_list .mailListBox li.hover{background-color:#e0e0e0; color:#035cc1;}
+#emailMatch_list .mailListBox li.current{background-color:#C1D5EB; color:#035cc1;}

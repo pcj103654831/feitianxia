@@ -1,0 +1,66 @@
+@charset "utf-8";
+.huan-login { margin-bottom:20px; }
+.huan-login .introduce { position: relative; width: 820px; height:190px; background: #fff; overflow:hidden }
+.huan-login .introduce img { width: 820px; height:190px; }
+.huan-login .nav-userinfo { padding: 25px 0 0 20px; width: 260px; height:165px; background: #fff; }
+.huan-login .nav-userinfo .user-img { width: 90px; display: inline; position: relative; float: left; padding-right: 10px; }
+.huan-login .nav-userinfo .user-img .userinfo-img { background-clip: padding-box; border-radius: 50%; width: 80px; height: 80px; overflow: hidden; border: 2px solid #e2e2e2; display: block; }
+.huan-login .user-personal { float: left; display: inline; line-height: 28px; }
+.huan-login .user-personal i { font-weight:bold }
+.huan-login .user-personal .name { font-size: 14px; }
+.user-personal .jfb { color: #999; font-size:13px; }
+.huan-login .user-manage { padding-top: 18px; }
+.huan-login .user-manage a { padding: 0 18px; height: 30px; line-height: 30px; border: 1px solid #e2e2e2; font-size: 14px; display: block; float: left; color:#666; border-radius: 2px; background: #f7f7f7; display: inline; }
+.huan-login .user-manage a:hover { color:#F60; background: #fafafa; text-decoration:none }
+.huan-login .user-manage .address { margin-left: 28px; }
+.huan-login .nav-userlogin { width: 280px; padding-top:30px; height:160px; background: #fff; }
+.huan-login .nav-userlogin p { font-size: 14px; text-align: center; color: #919191; }
+.huan-login .nav-userlogin .title { color: #333; padding-bottom: 20px; }
+.huan-login .nav-userlogin .title .title-jd { background-position: -194px -115px; }
+.huan-login .nav-userlogin .userlogin-btn { width: 178px; height: 38px; background: #ff7c00; display: block; margin: 0 auto 20px; line-height: 38px; font-size:16px; color: #fff; border: 1px solid #ff6600; text-shadow: 1px 1px 0 rgba(0,0,0,.2); }
+.huan-login .nav-userlogin .userlogin-btn:hover { background: #ff8c00; text-decoration: none; }
+.huan-login .nav-userlogin .register { color: #0289cd; font-size: 14px; padding-left: 18px; }
+
+.huan-login.h-good { margin-bottom:0; padding-bottom:15px; *padding-bottom:0; }
+.huan-login.h-good .nav-userinfo { padding: 25px 0 25px 15px; width: 235px; height:auto; background: #fff; }
+.huan-login.h-good .user-manage a { padding: 0 15px; }
+.huan-login.h-good .nav-userlogin { width: 250px; padding:30px 0; height:auto; }
+
+/*兑换详细页面*/
+.huan-left { float:left; width:835px; background: #fff; overflow:hidden }
+.huan-right { float:right; width:250px; overflow:hidden }
+.goods-inside { padding:25px 25px 40px 25px; }
+.price-info { margin-left: 20px; position: relative; }
+.goods-inside .img_show { width: 300px; display: block; }
+.goods-inside .img_show img { width: 300px; }
+.price-info { color: #666; }
+.price-info h3 { font-size: 18px; font-family: "微软雅黑"; color: #333; font-weight: normal; width: 455px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.price-info p { line-height: 42px; }
+.price-info .price { margin-top:20px; }
+.price-info .price .jd-current { font-size: 32px; color: #ff6600; font-family: Arial; vertical-align: -2px; }
+.price-info .bady-btn { margin-top: 15px; }
+.price-info .bady-btn .btn { width: 145px; height: 50px; line-height: 50px; text-align: center; display: block; color: #fff; font-size: 18px; background: url(../images/good/tag_state.gif) no-repeat; background-position: 0 -160px; text-shadow:1px 1px #ff4700; }
+.price-info .bady-btn .btn:hover { background-position: 0 -212px; text-decoration: none; }
+.bady-part { background: #fff; }
+.bady-tab { height: 40px; background: #f9f9f9; }
+.bady-tab ul li { float: left; border-right: 1px solid #e2e2e2; position: relative; }
+.bady-tab ul li a, .bady-tab ul li span { padding: 0 30px; line-height: 40px; font-size: 14px; color: #666; display: block; }
+.bady-tab ul li .badyactive { color: #FF8A2C; }
+.bady-tab ul li .bady-line-top { display: block; position: absolute; width: 100%; height: 2px; top: 0; background: #FF8A2C; overflow: hidden; }
+.information { padding: 20px 40px; }
+.information img{ max-width:730px; _width:730px;}
+.rule-explain { width: auto; }
+.rule-explain dt { color: #666; }
+.rule-explain dd { line-height: 24px; color: #919191; }
+
+/*alert_duihuan*/
+.alert_duihuan .alert_box { border: 1px solid #C2C2C2; }
+.alert_duihuan .alert_content { padding:20px; }
+.alert_duihuan .alert_content .top_tips { margin-bottom:20px; font-size:14px; text-align:center; color:#666 }
+.alert_duihuan .alert_content .top_tips .exchange-num { font-size: 18px; vertical-align: -2px; }
+
+
+.w980 .introduce { width: 700px; }
+.w980 .introduce img { margin-left:-50px; }
+.w980 .huan-left { width:715px; }
+.w980 .price-info h3 { width:335px; }

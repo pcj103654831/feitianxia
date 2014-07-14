@@ -1,0 +1,19 @@
+﻿ 
+.goods-list li {height: 350px;width: 235px;margin: 0 10px 10px 0;border-radius: 5px;}
+.pic-img {width: 230px;height: 230px;}
+.good-title {width: 230px;}
+.good-pic {width: 230px;}
+.good-price {width: 230px;}
+.good-des {width: 230px;}
+.good-title .title {width: 210px;}
+.item:hover {box-shadow: 0 0 10px #BBB;}
+ 
+
+
+
+
+
+
+
+
+

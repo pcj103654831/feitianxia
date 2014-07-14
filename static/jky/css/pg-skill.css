@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.main { width: 100%; }
+.main .skill_top { background: url(../images/help/skill/top_bg.jpg) repeat left top; height: 420px; width: 100%; position: relative; overflow: hidden; }
+.main .skill_top .center_img { background: url(../images/help/skill/top_center.png) no-repeat top left; height: 389px; width: 950px; margin: 0 auto; }
+.main .skill_top .bottom_img { background: url(../images/help/skill/top_bottom.png) repeat-x top left; height: 13px; position: absolute; bottom: 0px; left: 0px; width: 100%; );
+}
+.main .skill_top .skill_topimg { height: 40px; width: 1041px; margin: 0 auto; position: relative; }
+.main .skill_top .skill_topimg .img { background: url(../images/help/skill/center_top.png) no-repeat top left; position: absolute; bottom: 4px; left: 5px; height: 40px; width: 997px; overflow: hidden; );
+}
+.main .skill_content { background: url(../images/help/skill/big_bg.jpg) repeat left top; height: auto; width: 100%; position: relative; }
+.main .skill_content .content { background: url(../images/help/skill/content.gif) no-repeat; width: 1041px; height: 2084px; margin: 0 auto; }
+.main .skill_content .content .cont { width: 832px; height: 1849px; margin: 0 auto; }
+.main .skill_content .content .first_bg { background: url(../images/help/skill/first_bg.gif) no-repeat; width: 832px; height: 618px; position: relative; }
+.main .skill_content .content .first_bg .skill_type { font-family: "微软雅黑", "宋体"; position: absolute; width: 280px; height: 125px; top: 110px; left: 75px; }
+.main .skill_content .content .first_bg .skill_02 { right: 45px; left: auto; top: 170px; width: 260px; }
+.main .skill_content .content .first_bg .skill_03 { bottom: 70px; left: 190px; top: auto; width: 270px; }
+.main .skill_content .content .first_bg .skill_type h3 { font-size: 22px; color: #d197a6; font-weight: normal; }
+.main .skill_content .content .first_bg .skill_type p { font-size: 15px; color: #999; margin-top: 5px; line-height: 26px; }
+.main .skill_content .content .first_bg .skill_type .con_txt a { color: #929e64; }
+.main .skill_content .content .second_bg { width: 832px; height: 450px; margin-top: 45px; position: relative; }
+.main .skill_content .content .second_bg .skill_type { font-family: "微软雅黑", "宋体"; position: absolute; width: 240px; height: auto; top: 160px; right: 110px; }
+.main .skill_content .content .second_bg .skill_02 { right: 0px; left: auto; top: 300px; width: 350px; }
+.main .skill_content .content .second_bg .skill_03 { bottom: 0px; left: 50px; top: auto; width: 320px; }
+.main .skill_content .content .second_bg .skill_type h3 { font-size: 22px; color: #d197a6; font-weight: normal; }
+.main .skill_content .content .second_bg .skill_type p { font-size: 15px; color: #999; margin-top: 5px; line-height: 26px; }
+.main .skill_content .content .second_bg .skill_type .con_txt a { color: #929e64; }
+.main .skill_content .content .third_bg { height: 500px; width: 832px; margin-top: 20px; position: relative; }
+.main .skill_content .content .third_bg .title_img { background: url(../images/help/skill/guide.gif) no-repeat; width: 301px; height: 104px; margin: 0 auto; margin-top: 60px; display: block; }
+.main .skill_content .content .third_bg .third_con { padding-left: 60px; }
+.main .skill_content .content .third_bg .third_con h3 { font-family: "微软雅黑", "宋体"; color: #d197a6; font-size: 18px; font-weight: normal; margin-top: 30px; margin-bottom: 7px; }
+.main .skill_content .content .third_bg .third_con p { line-height: 26px; color: #8a8a8a; font-size: 14px; }
