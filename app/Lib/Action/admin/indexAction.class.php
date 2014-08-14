@@ -39,7 +39,7 @@ class indexAction extends BackendAction {
 		
         $this->assign('message', $message);
         $system_info = array(
-            'ftxia_version' => FTX_VERSION . '  '. FTX_RELEASE .' [<a href="http://bbs.yangtata.com" class="blue" target="_blank">查看最新版本</a>]',
+            'ftxia_version' => FTX_VERSION . '  '. FTX_RELEASE .' [<a href="http://www.yifansky.com" class="blue" target="_blank">查看最新版本</a>]',
             'server_domain' => $_SERVER['SERVER_NAME'] . ' [ ' . gethostbyname($_SERVER['SERVER_NAME']) . ' ]',
             'server_os' => PHP_OS,
             'web_server' => $_SERVER["SERVER_SOFTWARE"],

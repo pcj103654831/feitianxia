@@ -1,6 +1,6 @@
 <?php
 return array(
-    'website_manage' => '杨他他淘宝客飞天侠6.0商业版-后台管理',
+    'website_manage' => '淘宝客飞天侠6.0商业版-后台管理',
     'site_home' => '网站首页',
     'full_screen' => '全屏',
     'illegal_parameters' => '非法参数',

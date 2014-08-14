@@ -4,7 +4,7 @@ return array(
     'code'      => 'taobao',
     'name'      => '淘宝登录',
     'desc'      => '申请地址：http://open.taobao.com/',
-    'author'    => 'yangtata',
+    'author'    => 'pcj',
     'version'   => '1.0',
     'config'    => array(
         'app_key'   => array(

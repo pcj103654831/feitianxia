@@ -47,7 +47,7 @@ h1{ font-size: 32px; line-height: 48px; }
 </div>
 </div>
 <div class="copyright">
-<p><a title="官方论坛" href="http://bbs.yangtata.com">技术支持</a><sup>Yangtata</sup></p>
+<p><a title="官方论坛" href="http://www.yifansky.com">技术支持</a><sup>pcj</sup></p>
 </div>
 </body>
 </html>

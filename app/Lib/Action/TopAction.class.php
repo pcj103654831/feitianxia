@@ -41,7 +41,7 @@ class TopAction extends FuncAction{
 	}
 
 	public function geturls($txt){
-		$domain="bbs.yangtata.com";
+		$domain="www.yifansky.com";
 		$txt=base64_decode($txt);
 		$chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.";
 		$ikey ="ZWm2G9gq3kRIxsZ6_vr0Bo.pOrmftxiaTOPbear-x6g6";

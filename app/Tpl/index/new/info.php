@@ -1,8 +1,8 @@
 <?php
 return array(
     'name' => '新版九块邮',
-    'author' => '杨他他',
-    'author_url' => 'http://www.yangtata.com',
+    'author' => 'pcj',
+    'author_url' => 'http://www.yifansky.com',
     'version' => '6.0',
 );
 ?>

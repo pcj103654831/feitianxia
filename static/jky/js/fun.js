@@ -105,12 +105,12 @@ $(function(){
 	});
 
 	//顶部弹出收藏
-	if ($.cookie("NLRAF") == null && !/favorite|desk|zt11/.test(location.search)) {
-		if (!$("#afp").length) {
-			$("body").prepend('<div id="afp" style="display:none;"><div class="afpc"><p>请按键盘 <strong>CTRL + D</strong> 把'+WEBNICK+'放入收藏夹，折扣信息一手掌握！<a id="af" class="afpa" href="javascript:void(0)" onclick="AddFavorite(true)">加入收藏夹</a><a href="'+SITEURL+'index.php?m=index&a=shortcut" class="desktop">添加到桌面</a></p></div><div class="close_area"><label id="nlraf" onclick="CloseNLRAF(true)" for="check_nlraf"><input type="checkbox" id="check_nlraf" />不再提醒</label><a id="cafp" href="javascript:void(0)" onclick="CloseNLRAF(false)"></a></div></div>')
-		}
-		$("#afp").slideDown("slow")
-	}
+	//if ($.cookie("NLRAF") == null && !/favorite|desk|zt11/.test(location.search)) {
+	//	if (!$("#afp").length) {
+	//		$("body").prepend('<div id="afp" style="display:none;"><div class="afpc"><p>请按键盘 <strong>CTRL + D</strong> 把'+WEBNICK+'放入收藏夹，折扣信息一手掌握！<a id="af" class="afpa" href="javascript:void(0)" onclick="AddFavorite(true)">加入收藏夹</a><a href="'+SITEURL+'index.php?m=index&a=shortcut" class="desktop">添加到桌面</a></p></div><div class="close_area"><label id="nlraf" onclick="CloseNLRAF(true)" for="check_nlraf"><input type="checkbox" id="check_nlraf" />不再提醒</label><a id="cafp" href="javascript:void(0)" onclick="CloseNLRAF(false)"></a></div></div>')
+	//	}
+	//	$("#afp").slideDown("slow")
+	//}
 
 	//跟随滚动
     var ele_fix = $("#lr_float");

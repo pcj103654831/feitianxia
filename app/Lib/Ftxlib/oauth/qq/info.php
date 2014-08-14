@@ -4,7 +4,7 @@ return array(
     'code'      => 'qq',
     'name'      => 'QQ登录',
     'desc'      => '申请：http://connect.qq.com/intro/login',
-    'author'    => 'Yangtata',
+    'author'    => 'pcj',
     'version'   => '1.0',
     'config'    => array(
         'app_key'   => array(

@@ -4,7 +4,7 @@ return array(
     'code'      => 'sina',
     'name'      => '新浪微博登录',
     'desc'      => '申请地址：http://open.weibo.com/',
-    'author'    => 'yangtata',
+    'author'    => 'pcj',
     'version'   => '1.0',
     'config'    => array(
         'app_key'   => array(
