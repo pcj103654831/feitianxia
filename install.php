@@ -7,4 +7,5 @@ define('FTX_DATA_PATH', './data/');
 define('APP_NAME', 'install');
 define('APP_PATH', './install/');
 define('APP_DEBUG', true);
+//test
 require("./thinkphp/setup.php");
